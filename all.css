@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+section {
+    background-color: white;
+}
+
+.hero{
+    background-color: #1c1d25;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #1c1d25;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;/*logo always on left and list on right*/
+    background-color: #1c1d25;
+}
+
+.logo {
+    height:80px;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;/*gets rid of bullet points of list*/
+    width: 600px; /*makes space around titles the same*/
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration:none
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    margin:0;
+    font-size:25px;
+    font-weight: 300;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

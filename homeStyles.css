@@ -1,0 +1,68 @@
+.hero-area {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between; /* make space between name stuff and social medias*/
+    align-items: center;
+}
+.hero-text {
+    margin-left: 30px;
+    margin-bottom: 200px;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.picture {
+    width:300px;
+}
+
+.picture-container {
+    display:flex;
+    align-items: center;
+}
+.information{
+    padding-right:60px;
+}
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
